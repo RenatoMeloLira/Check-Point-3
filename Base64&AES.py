@@ -24,5 +24,5 @@ minha_chave = "FIAP2020FIAP2020FIAP2020FIAP2020"
 ###### PRINT ######
 cifrado = AES.new(minha_chave)
 texto_cifrado = cifrado.encrypt(b4)
-print("------- SEU ARQUIVO FOI ENCRIPTADO - ENTRE EM CONTATO NO EMAIL: HACKER@YMAIL.COM PARA OBTER A CHAVE -------\n")
+print("------- SEU ARQUIVO FOI CRIPTOGRAFADO - ENTRE EM CONTATO NO EMAIL: HACKER@YMAIL.COM PARA OBTER A CHAVE -------\n")
 print(texto_cifrado)
